@@ -28,7 +28,7 @@ This project implements a **symptom-disease prediction system** using associatio
 1. **Apriori Rules**:  
    - Extract frequent symptom-disease pairs using predefined thresholds.  
    - Example:
-     - Symptoms like *"fever" + "cough"* may lead to a rule predicting *"flu."*
+     - Symptoms like *"fever" + "cough"* may lead to another symptom like *"itching."*
 
 2. **Bayesian Prediction**:  
    - Given a list of symptoms as input, predict the most likely disease using a probabilistic approach based on **Bayes' Theorem**.
